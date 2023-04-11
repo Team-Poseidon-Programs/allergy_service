@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allergy_Business_Logic", "Allergy_Business_Logic\Allergy_Business_Logic.csproj", "{68E783A3-2937-4EB8-8C31-67600E4BB054}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allergy_EntityApi", "Allergy_EntityApi\Allergy_EntityApi.csproj", "{503FC5ED-F802-4096-96E7-487262DA435B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allergy_Models", "Allergy_Models\Allergy_Models.csproj", "{60819324-4D33-4C8C-AB8E-A5593DF1F5DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allergy_service", "Allergy_service\Allergy_service.csproj", "{92B6F708-C17C-4510-9CF4-EA9CE63EB9A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Allergy_Testing_Mappers", "Allergy_Testing_Mappers\Allergy_Testing_Mappers.csproj", "{5DD39C47-8DFD-4913-8008-BE0BF2CAAF85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllergyServiceTest", "AllergyServiceTest\AllergyServiceTest.csproj", "{CD841CF8-6DE2-4386-A7FB-0640747B92C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68E783A3-2937-4EB8-8C31-67600E4BB054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E783A3-2937-4EB8-8C31-67600E4BB054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E783A3-2937-4EB8-8C31-67600E4BB054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E783A3-2937-4EB8-8C31-67600E4BB054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503FC5ED-F802-4096-96E7-487262DA435B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503FC5ED-F802-4096-96E7-487262DA435B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503FC5ED-F802-4096-96E7-487262DA435B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503FC5ED-F802-4096-96E7-487262DA435B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60819324-4D33-4C8C-AB8E-A5593DF1F5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60819324-4D33-4C8C-AB8E-A5593DF1F5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60819324-4D33-4C8C-AB8E-A5593DF1F5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60819324-4D33-4C8C-AB8E-A5593DF1F5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B6F708-C17C-4510-9CF4-EA9CE63EB9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B6F708-C17C-4510-9CF4-EA9CE63EB9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B6F708-C17C-4510-9CF4-EA9CE63EB9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B6F708-C17C-4510-9CF4-EA9CE63EB9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD39C47-8DFD-4913-8008-BE0BF2CAAF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD39C47-8DFD-4913-8008-BE0BF2CAAF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD39C47-8DFD-4913-8008-BE0BF2CAAF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD39C47-8DFD-4913-8008-BE0BF2CAAF85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD841CF8-6DE2-4386-A7FB-0640747B92C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD841CF8-6DE2-4386-A7FB-0640747B92C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD841CF8-6DE2-4386-A7FB-0640747B92C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD841CF8-6DE2-4386-A7FB-0640747B92C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95C08318-9339-428A-950F-99C1272D40E2}
+	EndGlobalSection
+EndGlobal
