@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: allergy-api-service 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: allergy-api-service
+  template:
+    metadata:
+      labels:
+        app: allergy-api-service
+    spec:
+      containers:
+      - name: allergy-api-service
+        image: poseidon2022/allergyservice
+        ports:
+        - containerPort: 80
+        env:
+        - name: TITLE
+          value: "Welcome to Azure Kubernetes Service (AKS)"
